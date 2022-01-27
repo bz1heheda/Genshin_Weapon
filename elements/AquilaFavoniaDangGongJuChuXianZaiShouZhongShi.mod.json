@@ -1,0 +1,7 @@
+{
+  "_fv": 24,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable type=\"Number\" id=\"fw\">fw</variable></variables><block type=\"event_trigger\" inline=\"false\" deletable=\"false\" x=\"41\" y=\"59\"><field name=\"trigger\">no_ext_trigger</field></block></xml>"
+  }
+}

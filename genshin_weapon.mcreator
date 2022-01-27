@@ -1,0 +1,120 @@
+{
+  "mod_elements": [
+    {
+      "name": "AquilaFavoniaDangGongJuChuXianZaiShouZhongShi",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquila_favonia_dang_gong_ju_chu_xian_zai_shou_zhong_shi",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "AquilaFavonia",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquila_favonia"
+    },
+    {
+      "name": "Fyjbd",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fyjbd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AquilaFavoniaZaiWanJiaTingZhiShiYongShi",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquila_favonia_zai_wan_jia_ting_zhi_shi_yong_shi",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Fyj",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fyj"
+    },
+    {
+      "name": "Csh",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "csh",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "fycd",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "true"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.genshin_weapon.aquila_favonia": "风鹰剑"
+    },
+    "zh_cn": {
+      "item.genshin_weapon.aquila_favonia": "风鹰剑"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "genshin_weapon",
+    "modName": "genshin_weapon",
+    "version": "1.0.3",
+    "description": "原神武器",
+    "author": "He_RT",
+    "websiteURL": "https://space.bilibili.com/290906342",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "aquila_favonia",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.genshinweapon",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}
